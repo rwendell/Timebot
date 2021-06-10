@@ -8,7 +8,7 @@ Easily automate your time entry through base99 and smartsheet
 * [pywin32](https://pypi.org/project/pywin32/)
 * [Selenium](https://selenium-python.readthedocs.io/installation.html#installing-python-bindings-for-selenium)
 
-After installing Python3, simply run:
+After installing Python3:
 
 ````sh
 pip install pywin32 selenium
@@ -28,7 +28,7 @@ Create a CONFIG.py file following this format, and place into the [src](src) dir
 
 ````python
 username  = ""        # enter your username
-password  = ""        # enter your password
+password  = ""        # enter your password (OPTIONAL, if you don't enter here, you will be prompted every time you run)
 dashboard = ""        # paste the link to your smartsheet dashboard
 threshold = 3         # minimum threshold for matching your calendar entry to your dashboard project name
 ````
