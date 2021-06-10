@@ -1,7 +1,5 @@
-import os
 import time
 from getpass import getpass
-
 from selenium.webdriver.firefox.webdriver import WebDriver
 from utils.lcs import longest_common_substring
 from selenium import webdriver
