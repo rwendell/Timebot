@@ -18,12 +18,10 @@ pip install pywin32 selenium
 
 In outlook, create a calendar entry for each activity you worked on for the day:
 
-<img src="etc/calendar.png" alt="calendar" width="300"/>
 ![](etc/calendar.png)
 
 *Optional:* add a description for what you worked on:
 
-<img src="etc/description.png" alt='description' width="300">
 ![](etc/description.png)
 
 Create a CONFIG.py file following this format, and place into the [src](src) directory:
