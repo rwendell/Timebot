@@ -9,7 +9,8 @@ Easily automate your time entry through base99 and smartsheet
 * [Selenium](https://selenium-python.readthedocs.io/installation.html#installing-python-bindings-for-selenium)
 
 After installing Python3, simply run:
-````python
+
+````sh
 pip install pywin32 selenium
 ````
 
@@ -32,4 +33,8 @@ dashboard = ""        # paste the link to your smartsheet dashboard
 threshold = 3         # minimum threshold for matching your calendar entry to your dashboard project name
 ````
 
-After this, you can just run the [Timebot](Timebot) file in the root directory
+After this, you can just run the [Timebot](Timebot.py) file in the [root](.) directory
+
+```sh
+python Timebot.py
+```
